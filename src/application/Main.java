@@ -8,7 +8,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Set<String> set = new TreeSet<>();
+        Set<String> set = new LinkedHashSet<>();
 
         set.add("Monitor");
         set.add("Iphone");
