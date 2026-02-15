@@ -1,9 +1,6 @@
 package application;
 
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 
 public class Main {
@@ -11,7 +8,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Set<String> set = new HashSet<>();
+        Set<String> set = new TreeSet<>();
 
         set.add("Monitor");
         set.add("Iphone");
